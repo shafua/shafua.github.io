@@ -6,35 +6,35 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
   </head>
   <body>
-    <header>
+    <header class="section header">
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">photoapp</a></li>
-          <li id="logo"></li>
-          <li><a href="#">design</a></li>
-          <li><a href="#">download</a></li>
+        <ul class="main_nav">
+          <li class="main_nav__menu_item"><a class="main_nav__link" href="#">Home</a></li>
+          <li class="main_nav__menu_item"><a class="main_nav__link" href="#">photoapp</a></li>
+          <li id="logo" class="main_nav__logo"></li>
+          <li class="main_nav__menu_item"><a class="main_nav__link" href="#">design</a></li>
+          <li class="main_nav__menu_item"><a class="main_nav__link" href="#">download</a></li>
         </ul>
       </nav>
 
-      <div id="lead">
-        <h1>your life , a photo</h1>
-        <h3>print your life in a simple photo</h3>
-        <a href="#" class="green_button">get started</a>
+      <div class="tagline">
+        <h1 class="tagline__title">your life , a photo</h1>
+        <div class="tagline__subtitle">print your life in a simple photo</div>
+        <a href="#" class="button button--link tagline__button">get started</a>
       </div>
 
-      <div id="social">
-        <a href="#"><img src="img/twitter.svg" alt="twitter" title="twitter"></a>
-        <a href="#"><img src="img/flickr.svg" alt="flickr" title="flickr"></a>
-        <a href="#"><img src="img/dribbble.svg" alt="dribbble" title="dribbble"></a>
+      <div class="social_links">
+        <a href="#"><img class="social_links__network_logo" src="img/twitter.svg" alt="twitter" title="twitter"></a>
+        <a href="#"><img class="social_links__network_logo" src="img/flickr.svg" alt="flickr" title="flickr"></a>
+        <a href="#"><img class="social_links__network_logo" src="img/dribbble.svg" alt="dribbble" title="dribbble"></a>
       </div>
     </header>
 
-    <section id="second">
-      <div class="content">
-        <h3>Rappresent your life with a simple photo</h3>
+    <section id="second" class="section hand_section">
+      <div class="content hand_section__content">
+        <h3 class="content__title">Rappresent your life with a simple photo</h3>
 
-        <p>
+        <p class="content__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
             sed do eiusmod tempor incididunt ut labore et dolore<br/>
             magna aliqua. Ut <b>enim ad minim</b> veniam, quis<br/>
@@ -42,14 +42,14 @@
             ut aliquip ex ea commodo consequat.
         </p>
 
-        <a href="#" class="green_button">get started</a>
+        <a href="#" class="button button--link hand_section__button">get started</a>
       </div>
     </section>
-    <section id="third">
-      <div class="content">
-        <h3>DESIGN</h3>
+    <section id="third" class="section phone_sention">
+      <div class="content phone_sention__content">
+        <h3 class="content__title phone_sention__title">DESIGN</h3>
 
-        <p>
+        <p class="content__text phone_sention__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
             sed do eiusmod tempor incididunt ut labore et dolore<br/>
             magna aliqua. Ut <b>enim ad minim</b> veniam, quis<br/>
@@ -57,63 +57,63 @@
             ut aliquip ex ea commodo consequat.
         </p>
 
-        <a href="#" class="green_button">learn more</a>
+        <a href="#" class="button button--link phone_sention__button">learn more</a>
 
-        <div class="slider_panel slider">
-          <div class="slider_page">01/05</div>
-          <div class="arrows">
-            <div class="left_arrow"></div>
-            <div class="right_arrow"></div>
+        <div class="slider slider--panel">
+          <div class="slider__page">01/05</div>
+          <div class="slider__arrows">
+            <div class="slider__arrow slider__arrow--left"></div>
+            <div class="slider__arrow slider__arrow--right"></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="fourth">
+    <section id="fourth" class="section community_section">
       <div class="community">
-        <img class="logo" src="img/logo_green.png">
+        <img class="community__logo" src="img/logo_green.png" alt="Phototime Logo">
 
-        <h4>our community</h4>
+        <h4 class="community__title">our community</h4>
 
-        <div class="lead">Lorem ipsum dolor sit<br/> amet, consectetur<br/> adipiscing elit,</div>
+        <div class="community__lead">Lorem ipsum dolor sit<br/> amet, consectetur<br/> adipiscing elit,</div>
       </div>
 
-      <div class="community_slider slider">
-        <div class="arrows">
-          <div class="left_arrow"></div>
-          <div class="right_arrow"></div>
+      <div class="slider community__slider">
+        <div class="slider__arrows community__arrows">
+          <div class="slider__arrow community__arrow slider__arrow--left"></div>
+          <div class="slider__arrow community__arrow slider__arrow--right"></div>
         </div>
-        <div class="slides">
-          <div class="slide"><img src="img/t1.jpg"></div>
-          <div class="slide"><img src="img/t2.jpg"></div>
+        <div class="slider__slides">
+          <div class="slider__slide"><img src="img/t1.jpg" alt="Squeezed van" title="Squeezed van"></div>
+          <div class="slider__slide"><img src="img/t2.jpg" alt="Rainy day" title="Rainy day"></div>
         </div>
       </div>
     </section>
 
-    <section id="fifthy">
-      <h2>subscribe to us community</h2>
+    <section id="fifthy" class="section subscribe">
+      <h2 class="subscribe__title">subscribe to us community</h2>
 
-      <div class="subscribe_panel">
+      <div class="subscribe__panel">
         <form>
-          <input type="email" class="subscribe" placeholder="your email" /><input type="submit" class="subscribe-button green_button" value=" ">
+          <input type="email" class="subscribe__field" placeholder="your email" /><input type="submit" class="subscribe__button" value=" ">
         </form>
       </div>
     </section>
 
-    <section id="seventh">
-      <h2>Download it</h2>
+    <section id="seventh" class="section download">
+      <h2 class="download__title">Download it</h2>
 
-      <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="download__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 
-      <div class="donwload_apps">
-        <a href="#" class="dowload_button ios_button"><span>apple store</span></a>
-        <a href="#" class="dowload_button android_button"><span>play store</span></a>
+      <div class="donwload__apps">
+        <a href="#" class="download__button download__button--ios"><span class="download__button_text">apple store</span></a>
+        <a href="#" class="download__button download__button--android"><span class="download__button_text">play store</span></a>
       </div>
     </section>
 
-    <footer>
-      <div class="footer_links"><a href="#">credits</a> | <a href="#">privacy</a> | <a href="#">our teams</a></div>
-      <div class="footer_copyright">Copyright by phototime &mdash; all right reserved</div>
+    <footer class="section footer">
+      <div class="footer__links"><a class="footer__link" href="#">credits</a> | <a class="footer__link" href="#">privacy</a> | <a class="footer__link" href="#">our teams</a></div>
+      <div class="footer__copyright">Copyright by phototime &mdash; all right reserved</div>
     </footer>
   </body>
 </html>
