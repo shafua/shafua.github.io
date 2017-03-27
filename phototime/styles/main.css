@@ -24,15 +24,6 @@
   font-style: normal;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-ol, ul {
-	list-style: none;
-}
-
 body{
   margin: 0;
   background-color: #fff;
@@ -61,7 +52,9 @@ body{
     text-decoration: none;
   }
 
-.content {}
+.content {
+	display: block;
+}
   .content__title {
     margin: 0;
     padding: 0;
@@ -82,7 +75,9 @@ body{
     margin-bottom: 41px;
   }
 
-.slider {}
+.slider {
+	display: block;
+}
   .slider--panel {
     margin-top: 45px;
     margin-left: -1px;
@@ -127,6 +122,7 @@ body{
     background: url('../img/livello.jpg') no-repeat 0 0;
     height: 745px;
     color: #fff;
+    display: block;
 }
 
 .section {
@@ -134,10 +130,11 @@ body{
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .hand_section {
-  background-color: rgb(245, 246, 247);
+  background-color: #f5f6f7;
   background-image: url('../img/iphone.png');
   background-repeat: no-repeat;
   background-position: 515px 91px;
@@ -191,6 +188,7 @@ body{
   margin: 72px auto 0;
   padding: 0;
   justify-content: flex-start;
+  list-style: none;
 }
   .main_nav__menu_item {
     display:block;
